@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -216,4 +217,224 @@
     <!-- JavaScript File Link -->
     <script src="js/script.js"></script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathsMaster - IGCSE Maths Tuition</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>    
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <a href="#" class="logo">Maths<span>Master</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="#services">Tuition</a></li>
+                    <li><a href="#past-papers">Past Papers</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Expert IGCSE Maths Tuition</h1>
+            <p>Personalized tutoring to help students excel in Cambridge, Edexcel, and AQA IGCSE Mathematics exams.</p>
+            <a href="#contact" class="btn">Book a Session</a>
+            <a href="#past-papers" class="btn btn-outline">View Past Papers</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tuition Services</h2>
+                <p>Tailored one-on-one and group sessions designed to boost confidence and exam performance</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="One-to-One Tuition">
+                    </div>
+                    <div class="service-content">
+                        <h3>One-to-One Tuition</h3>
+                        <p>Personalized sessions focusing on your child's specific needs and learning style.</p>
+                        <div class="service-price">£40/hour</div>
+                        <a href="#contact" class="btn">Enquire Now</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Group Sessions">
+                    </div>
+                    <div class="service-content">
+                        <h3>Small Group Sessions</h3>
+                        <p>Interactive group learning (max 4 students) at a reduced rate with peer collaboration.</p>
+                        <div class="service-price">£25/hour per student</div>
+                        <a href="#contact" class="btn">Enquire Now</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Exam Preparation">
+                    </div>
+                    <div class="service-content">
+                        <h3>Intensive Exam Preparation</h3>
+                        <p>Focused revision sessions covering past papers, exam techniques, and time management.</p>
+                        <div class="service-price">£50/hour</div>
+                        <a href="#contact" class="btn">Enquire Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Past Papers Section -->
+    <section id="past-papers" class="past-papers">
+        <div class="container">
+            <div class="section-title">
+                <h2>IGCSE Past Papers</h2>
+                <p>Access past papers from major exam boards to practice for your exams</p>
+            </div>
+            <div class="exam-boards">
+                <div class="board-card">
+                    <i class="fas fa-university"></i>
+                    <h3>Cambridge IGCSE</h3>
+                    <ul class="paper-list">
+                        <li><a href="#" onclick="downloadPaper('cambridge_2022')">2022 Paper 2 (Extended)</a></li>
+                        <li><a href="#" onclick="downloadPaper('cambridge_2021')">2021 Paper 4 (Extended)</a></li>
+                        <li><a href="#" onclick="downloadPaper('cambridge_2020')">2020 Paper 2 (Core)</a></li>
+                        <li><a href="#" onclick="downloadPaper('cambridge_2019')">2019 Paper 4 (Extended)</a></li>
+                    </ul>
+                </div>
+                <div class="board-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Edexcel IGCSE</h3>
+                    <ul class="paper-list">
+                        <li><a href="#" onclick="downloadPaper('edexcel_2022')">2022 Paper 1H</a></li>
+                        <li><a href="#" onclick="downloadPaper('edexcel_2021')">2021 Paper 2H</a></li>
+                        <li><a href="#" onclick="downloadPaper('edexcel_2020')">2020 Paper 1H</a></li>
+                        <li><a href="#" onclick="downloadPaper('edexcel_2019')">2019 Paper 2H</a></li>
+                    </ul>
+                </div>
+                <div class="board-card">
+                    <i class="fas fa-book-open"></i>
+                    <h3>AQA IGCSE</h3>
+                    <ul class="paper-list">
+                        <li><a href="#" onclick="downloadPaper('aqa_2022')">2022 Paper 3H</a></li>
+                        <li><a href="#" onclick="downloadPaper('aqa_2021')">2021 Paper 4H</a></li>
+                        <li><a href="#" onclick="downloadPaper('aqa_2020')">2020 Paper 3H</a></li>
+                        <li><a href="#" onclick="downloadPaper('aqa_2019')">2019 Paper 4H</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="resources">
+        <div class="container">
+            <div class="section-title">
+                <h2>Study Resources</h2>
+                <p>Download comprehensive notes and resources to supplement your learning</p>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h3>IGCSE Revision Notes</h3>
+                    <p>Comprehensive topic-by-topic notes covering the entire IGCSE syllabus.</p>
+                    <a href="#" onclick="downloadResource('algebra_notes')" class="btn">Download Algebra Notes</a>
+                </div>
+                <div class="resource-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h3>Formula Sheets</h3>
+                    <p>All the essential formulas you need to know for the exam in one place.</p>
+                    <a href="#" onclick="downloadResource('formula_sheet')" class="btn">Download Formulas</a>
+                </div>
+                <div class="resource-card">
+                    <i class="fab fa-youtube"></i>
+                    <h3>YouTube Channel</h3>
+                    <p>Coming soon! Video tutorials explaining key concepts and worked solutions.</p>
+                    <a href="#" class="btn" id="yt-link">Notify Me When Live</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Contact us to book a session or ask any questions about our tuition services</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Details</h3>
+                    <p><i class="fas fa-phone"></i> +44 1234 567890</p>
+                    <p><i class="fas fa-envelope"></i> info@mathsmaster.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> London, UK (Online sessions available worldwide)</p>
+                    
+                    <h3 style="margin-top: 30px;">Availability</h3>
+                    <p><i class="fas fa-calendar-alt"></i> Monday - Friday: 4pm - 8pm</p>
+                    <p><i class="fas fa-calendar-alt"></i> Saturday: 10am - 4pm</p>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#" id="youtube-social"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="tuition-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="tel" placeholder="Phone Number">
+                        <select required>
+                            <option value="" disabled selected>Select Service</option>
+                            <option value="one-to-one">One-to-One Tuition</option>
+                            <option value="group">Group Sessions</option>
+                            <option value="exam">Exam Preparation</option>
+                            <option value="other">Other Enquiry</option>
+                        </select>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <a href="#" class="logo">Maths<span>Master</span></a>
+            <ul class="footer-links">
+                <li><a href="#services">Tuition</a></li>
+                <li><a href="#past-papers">Past Papers</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">&copy; 2023 MathsMaster IGCSE Tuition. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript File Link -->
+    <script src="js/script.js"></script>
+</body>
+>>>>>>> fa595a0c96ffa8ec4768f37721dc0a307a283ac7
 </html>
