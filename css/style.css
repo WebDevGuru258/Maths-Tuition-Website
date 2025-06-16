@@ -39,6 +39,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 25px;
 }
 
 .logo {
@@ -46,6 +47,8 @@ header {
     font-weight: 700;
     color: white;
     text-decoration: none;
+    margin-right: auto;
+    transform: translateX(-10px);
 }
 
 .logo span {
